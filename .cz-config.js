@@ -11,7 +11,7 @@ module.exports = {
         {"value": "revert", name: "revert:   回退"},
         {"value": "build", name: "build:   打包"},
     ],
-    message: {
+    messages: {
         type: "请选择提交类型:",
         customScope: "请输入修改范围(可选):",
         subject: "请简要描述提交(必填):",
