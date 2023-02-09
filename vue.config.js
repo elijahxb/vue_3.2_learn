@@ -10,5 +10,13 @@ module.exports = {
           config.plugins.push(Components({
             resolvers: [ElementPlusResolver()]
           }))
-    }
+    },
+  devServer: {
+      https: false,
+      proxy: {
+        '/vue': {
+          target: 'http://localhost:8090/api/v1'
+        }
+      }
+  }
 }
