@@ -14,7 +14,7 @@
         <el-icon :size="20" class="svg-container">
           <Lock />
         </el-icon>
-        <el-input v-model="form.password"></el-input>
+        <el-input v-model="form.password" type='password' show-password></el-input>
       </el-form-item>
       <el-button type='primary' class='login-button' @click='handleLogin'>登陆</el-button>
     </el-form>
@@ -53,7 +53,8 @@ const handleLogin = () => {
   formRef.value.validate(async (valid) => {
     if (valid) {
       // alert('submit!')
-      await login(form.value)
+      const res = await login(form.value)
+      console.log(res)
     } else {
       console.log('error submit')
       return false
