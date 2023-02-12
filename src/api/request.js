@@ -6,6 +6,16 @@ const service = axios.create({
   timeout: 5000
 })
 
+// 统一带上鉴权字段
+service.interceptors.request.use(config => {
+  config.headers.Authorization = localStorage.getItem('token')
+  return config
+  },
+    (error) => {
+  return Promise.reject(new Error(error))
+  })
+
+// 统一处理响应体
 service.interceptors.response.use(
   (response) => {
   const { data, code } = response.data
