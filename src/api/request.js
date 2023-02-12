@@ -1,5 +1,7 @@
 import axios from 'axios'
 import { ElMessage } from 'element-plus'
+import { diffTokenTime } from '@/utils/auth'
+import store from '@/store'
 
 const service = axios.create({
   baseURL: process.env.VUE_APP_BASE_API,
@@ -7,7 +9,14 @@ const service = axios.create({
 })
 
 // 统一带上鉴权字段
-service.interceptors.request.use(config => {
+service.interceptors.request.use(
+  (config) => {
+    if (localStorage.getItem('token')) {
+      if (diffTokenTime()) {
+        store.dispatch('app/logout')
+        return Promise.reject(new Error('token失效了'))
+      }
+    }
   config.headers.Authorization = localStorage.getItem('token')
   return config
   },
@@ -29,10 +38,10 @@ service.interceptors.response.use(
 },
   (error) => {
     error.response && ElMessage.error(error.response.data)
-    if (error.response.status === 404) {
+    if (error.response !== undefined && error.response.status === 404) {
       console.log('接口不存在: &proxy -> ' + error.request.responseURL)
     }
-    return Promise.reject(new Error(error.response))
+    return Promise.reject(new Error(error.message))
   }
   )
 export default service

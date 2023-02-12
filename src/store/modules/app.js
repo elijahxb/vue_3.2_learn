@@ -1,6 +1,7 @@
 import { login as LoginApi } from '@/api/login'
 import router from '@/router'
 import { ElMessage } from 'element-plus'
+import { setTokenTime } from '@/utils/auth'
 export default {
   namespaced: true,
   state: () => ({
@@ -22,6 +23,7 @@ export default {
               message: '登陆成功',
               type: 'success'
             })
+            setTokenTime()
             router.replace('/')
             resolve()
         })
@@ -29,6 +31,11 @@ export default {
           reject(err)
         })
       })
+    },
+    logout({ commit }) {
+      commit('setToken', '')
+      localStorage.clear()
+      router.replace('/login')
     }
   }
 }

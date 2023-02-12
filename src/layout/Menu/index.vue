@@ -1,53 +1,59 @@
 <template>
   <el-menu
     active-text-color="#ffd04b"
-    background-color="#545c64"
+    background-color="$menuBg"
     class="el-menu-vertical-demo"
-    default-active="2"
+    :default-active="defaultActive"
     text-color="#fff"
-    @open="handleOpen"
-    @close="handleClose"
+    router
+    unique-opened
   >
-    <el-sub-menu index="1">
+    <el-sub-menu
+      :index="item.id.toString()"
+      v-for="(item, index) in menusList"
+      :key='item.id'
+    >
       <template #title>
-        <el-icon><location /></el-icon>
-        <span>Navigator One</span>
+        <el-icon>
+          <component :is="iconList[index]"></component>
+        </el-icon>
+        <span>{{ item.authName }}</span>
       </template>
-      <el-menu-item-group title="Group One">
-        <el-menu-item index="1-1">item one</el-menu-item>
-        <el-menu-item index="1-2">item two</el-menu-item>
-      </el-menu-item-group>
-      <el-menu-item-group title="Group Two">
-        <el-menu-item index="1-3">item three</el-menu-item>
-      </el-menu-item-group>
-      <el-sub-menu index="1-4">
-        <template #title>item four</template>
-        <el-menu-item index="1-4-1">item one</el-menu-item>
-      </el-sub-menu>
+      <el-menu-item
+        :index="'/' + subitem.path"
+        v-for='subitem in item.children'
+        :key='subitem.id'
+        @click="savePath(subitem.path)"
+        >
+        <template #title>
+          <el-icon>
+            <component :is="icon"></component>
+          </el-icon>
+          <span>{{ subitem.authName }}</span>
+        </template>
+      </el-menu-item>
     </el-sub-menu>
-    <el-menu-item index="2">
-      <el-icon><icon-menu /></el-icon>
-      <span>Navigator Two</span>
-    </el-menu-item>
-    <el-menu-item index="3" disabled>
-      <el-icon><document /></el-icon>
-      <span>Navigator Three</span>
-    </el-menu-item>
-    <el-menu-item index="4">
-      <el-icon><setting /></el-icon>
-      <span>Navigator Four</span>
-    </el-menu-item>
   </el-menu>
 </template>
 
 <script setup>
 import { menuList } from '@/api/menu'
+import { ref } from 'vue'
 
+const iconList = ref(['user', 'setting', 'shop', 'ticket', 'pie-chart'])
+const icon = ref('menu')
+const defaultActive = ref(sessionStorage.getItem('path') || '/users')
+const menusList = ref([])
 const initMenuList = async() => {
-  const res = await menuList()
-  console.log(res)
+  menusList.value = await menuList()
+  console.log(menusList)
 }
 initMenuList()
+
+const savePath = (path) => {
+  sessionStorage.setItem('path', `/${path}`)
+}
+
 </script>
 
 <style lang='scss' scoped>
