@@ -20,10 +20,6 @@ service.interceptors.response.use(
   (response) => {
   const { data, code } = response.data
   if (code === 200 || code === 201) {
-    ElMessage({
-      message: response.data.message,
-      type: 'success'
-    })
     return data
   } else {
     const message = response.data.message
@@ -33,7 +29,10 @@ service.interceptors.response.use(
 },
   (error) => {
     error.response && ElMessage.error(error.response.data)
-    return Promise.reject(new Error(error.response.message))
+    if (error.response.status === 404) {
+      console.log('接口不存在: &proxy -> ' + error.request.responseURL)
+    }
+    return Promise.reject(new Error(error.response))
   }
   )
 export default service

@@ -1,5 +1,6 @@
 import { login as LoginApi } from '@/api/login'
 import router from '@/router'
+import { ElMessage } from 'element-plus'
 export default {
   namespaced: true,
   state: () => ({
@@ -17,8 +18,12 @@ export default {
         LoginApi(userInfo)
           .then((res) => {
           commit('setToken', res.token)
-          router.replace('/')
-          resolve()
+            ElMessage({
+              message: '登陆成功',
+              type: 'success'
+            })
+            router.replace('/')
+            resolve()
         })
           .catch((err) => {
           reject(err)

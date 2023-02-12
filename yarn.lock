@@ -84,14 +84,14 @@
 
 "@babel/helper-annotate-as-pure@^7.18.6":
   "integrity" "sha512-duORpUiYrEpzKIop6iNbjnwKLAKnJ47csTyRACyEmWj0QdUrm5aqNJGHSSEQSUAvNW0ojX0dOmK9dZduvkfeXA=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-annotate-as-pure/-/helper-annotate-as-pure-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/types" "^7.18.6"
 
 "@babel/helper-builder-binary-assignment-operator-visitor@^7.18.6":
   "integrity" "sha512-yFQ0YCHoIqarl8BCRwBL8ulYUaZpz3bNsA7oFepAzee+8/+ImtADXNOmO5vJvsPff3qi+hvpkY/NYBTrBQgdNw=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.18.9.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.18.9.tgz"
   "version" "7.18.9"
   dependencies:
     "@babel/helper-explode-assignable-expression" "^7.18.6"
@@ -110,7 +110,7 @@
 
 "@babel/helper-create-class-features-plugin@^7.18.6", "@babel/helper-create-class-features-plugin@^7.20.12", "@babel/helper-create-class-features-plugin@^7.20.5", "@babel/helper-create-class-features-plugin@^7.20.7":
   "integrity" "sha512-9OunRkbT0JQcednL0UFvbfXpAsUXiGjUk0a7sN8fUXX7Mue79cUSMjHGDRRi/Vz9vYlpIhLV5fMD5dKoMhhsNQ=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.20.12.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-create-class-features-plugin/-/helper-create-class-features-plugin-7.20.12.tgz"
   "version" "7.20.12"
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.18.6"
@@ -124,7 +124,7 @@
 
 "@babel/helper-create-regexp-features-plugin@^7.18.6", "@babel/helper-create-regexp-features-plugin@^7.20.5":
   "integrity" "sha512-m68B1lkg3XDGX5yCvGO0kPx3v9WIYLnzjKfPcQiwntEQa5ZeRkPmo2X/ISJc8qxWGfwUr+kvZAeEzAwLec2r2w=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.20.5.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.20.5.tgz"
   "version" "7.20.5"
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.18.6"
@@ -132,7 +132,7 @@
 
 "@babel/helper-define-polyfill-provider@^0.3.3":
   "integrity" "sha512-z5aQKU4IzbqCC1XH0nAqfsFLMVSo22SBKUc0BxGrLkolTdPTructy0ToNnlO2zA4j9Q/7pjMZf0DSY+DSTYzww=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.3.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-define-polyfill-provider/-/helper-define-polyfill-provider-0.3.3.tgz"
   "version" "0.3.3"
   dependencies:
     "@babel/helper-compilation-targets" "^7.17.7"
@@ -149,7 +149,7 @@
 
 "@babel/helper-explode-assignable-expression@^7.18.6":
   "integrity" "sha512-eyAYAsQmB80jNfg4baAtLeWAQHfHFiR483rzFK+BhETlGZaQC9bsfrugfXDCbRHLQbIA7U5NxhhOxN7p/dWIcg=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-explode-assignable-expression/-/helper-explode-assignable-expression-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-explode-assignable-expression/-/helper-explode-assignable-expression-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/types" "^7.18.6"
@@ -171,7 +171,7 @@
 
 "@babel/helper-member-expression-to-functions@^7.20.7":
   "integrity" "sha512-9J0CxJLq315fEdi4s7xK5TQaNYjZw+nDVpVqr1axNGKzdrdwYBD5b4uKv3n75aABG0rCCTK8Im8Ww7eYfMrZgw=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-member-expression-to-functions/-/helper-member-expression-to-functions-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/types" "^7.20.7"
@@ -199,19 +199,19 @@
 
 "@babel/helper-optimise-call-expression@^7.18.6":
   "integrity" "sha512-HP59oD9/fEHQkdcbgFCnbmgH5vIQTJbxh2yf+CdM89/glUNnuzr87Q8GIjGEnOktTROemO0Pe0iPAYbqZuOUiA=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-optimise-call-expression/-/helper-optimise-call-expression-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/types" "^7.18.6"
 
 "@babel/helper-plugin-utils@^7.0.0", "@babel/helper-plugin-utils@^7.10.4", "@babel/helper-plugin-utils@^7.12.13", "@babel/helper-plugin-utils@^7.14.5", "@babel/helper-plugin-utils@^7.16.7", "@babel/helper-plugin-utils@^7.18.6", "@babel/helper-plugin-utils@^7.18.9", "@babel/helper-plugin-utils@^7.19.0", "@babel/helper-plugin-utils@^7.20.2", "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
   "integrity" "sha512-8RvlJG2mj4huQ4pZ+rU9lqKi9ZKiRmuvGuM2HlWmkmgOhbs6zEAw6IEiJ5cQqGbDzGZOhwuOQNtZMi/ENLjZoQ=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.20.2.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-plugin-utils/-/helper-plugin-utils-7.20.2.tgz"
   "version" "7.20.2"
 
 "@babel/helper-remap-async-to-generator@^7.18.9":
   "integrity" "sha512-dI7q50YKd8BAv3VEfgg7PS7yD3Rtbi2J1XMXaalXO0W0164hYLnh8zpjRS0mte9MfVp/tltvr/cfdXPvJr1opA=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-remap-async-to-generator/-/helper-remap-async-to-generator-7.18.9.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-remap-async-to-generator/-/helper-remap-async-to-generator-7.18.9.tgz"
   "version" "7.18.9"
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.18.6"
@@ -221,7 +221,7 @@
 
 "@babel/helper-replace-supers@^7.18.6", "@babel/helper-replace-supers@^7.20.7":
   "integrity" "sha512-vujDMtB6LVfNW13jhlCrp48QNslK6JXi7lQG736HVbHz/mbf4Dc7tIRh1Xf5C0rF7BP8iiSxGMCmY6Ci1ven3A=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-replace-supers/-/helper-replace-supers-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-replace-supers/-/helper-replace-supers-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-environment-visitor" "^7.18.9"
@@ -240,7 +240,7 @@
 
 "@babel/helper-skip-transparent-expression-wrappers@^7.20.0":
   "integrity" "sha512-5y1JYeNKfvnT8sZcK9DVRtpTbGiomYIHviSP3OQWmDPU3DeH4a1ZlT/N2lyQ5P8egjcRaT/Y9aNqUxK0WsnIIg=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.20.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.20.0.tgz"
   "version" "7.20.0"
   dependencies:
     "@babel/types" "^7.20.0"
@@ -269,7 +269,7 @@
 
 "@babel/helper-wrap-function@^7.18.9":
   "integrity" "sha512-bYMxIWK5mh+TgXGVqAtnu5Yn1un+v8DDZtqyzKRLUzrh70Eal2O3aZ7aPYiMADO4uKlkzOiRiZ6GX5q3qxvW9Q=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-wrap-function/-/helper-wrap-function-7.20.5.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fhelper-wrap-function/-/helper-wrap-function-7.20.5.tgz"
   "version" "7.20.5"
   dependencies:
     "@babel/helper-function-name" "^7.19.0"
@@ -302,14 +302,14 @@
 
 "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@^7.18.6":
   "integrity" "sha512-Dgxsyg54Fx1d4Nge8UnvTrED63vrwOdPmyvPzlNN/boaliRP54pm3pGzZD1SJUwrBA+Cs/xdG8kXX6Mn/RfISQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.18.9":
   "integrity" "sha512-sbr9+wNE5aXMBBFBICk01tt7sBf2Oc9ikRFEcem/ZORup9IMUdNhW7/wVLEbbtlWOsEubJet46mHAL2C8+2jKQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/-/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-bugfix-v8-spread-parameters-in-optional-chaining/-/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
@@ -318,7 +318,7 @@
 
 "@babel/plugin-proposal-async-generator-functions@^7.20.1":
   "integrity" "sha512-xMbiLsn/8RK7Wq7VeVytytS2L6qE69bXPB10YCmMdDZbKF4okCqY74pI/jJQ/8U0b/F6NrT2+14b8/P9/3AMGA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-environment-visitor" "^7.18.9"
@@ -328,7 +328,7 @@
 
 "@babel/plugin-proposal-class-properties@^7.12.13", "@babel/plugin-proposal-class-properties@^7.18.6":
   "integrity" "sha512-cumfXOF0+nzZrrN8Rf0t7M+tF6sZc7vhQwYQck9q1/5w2OExlD+b4v4RpMJFaV1Z7WcDRgO6FqvxqxGlwo+RHQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-class-properties/-/plugin-proposal-class-properties-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.18.6"
@@ -336,7 +336,7 @@
 
 "@babel/plugin-proposal-class-static-block@^7.18.6":
   "integrity" "sha512-AveGOoi9DAjUYYuUAG//Ig69GlazLnoyzMw68VCDux+c1tsnnH/OkYcpz/5xzMkEFC6UxjR5Gw1c+iY2wOGVeQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-class-static-block/-/plugin-proposal-class-static-block-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-class-static-block/-/plugin-proposal-class-static-block-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.20.7"
@@ -345,7 +345,7 @@
 
 "@babel/plugin-proposal-decorators@^7.12.13":
   "integrity" "sha512-7T6BKHa9Cpd7lCueHBBzP0nkXNina+h5giOZw+a8ZpMfPFY19VjJAjIxyFHuWkhCWgL6QMqRiY/wB1fLXzm6Mw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.20.13.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-decorators/-/plugin-proposal-decorators-7.20.13.tgz"
   "version" "7.20.13"
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.20.12"
@@ -356,7 +356,7 @@
 
 "@babel/plugin-proposal-dynamic-import@^7.18.6":
   "integrity" "sha512-1auuwmK+Rz13SJj36R+jqFPMJWyKEDd7lLSdOj4oJK0UTgGueSAtkrCvz9ewmgyU/P941Rv2fQwZJN8s6QruXw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-dynamic-import/-/plugin-proposal-dynamic-import-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-dynamic-import/-/plugin-proposal-dynamic-import-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
@@ -364,7 +364,7 @@
 
 "@babel/plugin-proposal-export-namespace-from@^7.18.9":
   "integrity" "sha512-k1NtHyOMvlDDFeb9G5PhUXuGj8m/wiwojgQVEhJ/fsVsMCpLyOP4h0uGEjYJKrRI+EVPlb5Jk+Gt9P97lOGwtA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.18.9.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.18.9.tgz"
   "version" "7.18.9"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.9"
@@ -372,7 +372,7 @@
 
 "@babel/plugin-proposal-json-strings@^7.18.6":
   "integrity" "sha512-lr1peyn9kOdbYc0xr0OdHTZ5FMqS6Di+H0Fz2I/JwMzGmzJETNeOFq2pBySw6X/KFL5EWDjlJuMsUGRFb8fQgQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-json-strings/-/plugin-proposal-json-strings-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
@@ -380,7 +380,7 @@
 
 "@babel/plugin-proposal-logical-assignment-operators@^7.18.9":
   "integrity" "sha512-y7C7cZgpMIjWlKE5T7eJwp+tnRYM89HmRvWM5EQuB5BoHEONjmQ8lSNmBUwOyy/GFRsohJED51YBF79hE1djug=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-logical-assignment-operators/-/plugin-proposal-logical-assignment-operators-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-logical-assignment-operators/-/plugin-proposal-logical-assignment-operators-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
@@ -388,7 +388,7 @@
 
 "@babel/plugin-proposal-nullish-coalescing-operator@^7.18.6":
   "integrity" "sha512-wQxQzxYeJqHcfppzBDnm1yAY0jSRkUXR2z8RePZYrKwMKgMlE8+Z6LUno+bd6LvbGh8Gltvy74+9pIYkr+XkKA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
@@ -396,7 +396,7 @@
 
 "@babel/plugin-proposal-numeric-separator@^7.18.6":
   "integrity" "sha512-ozlZFogPqoLm8WBr5Z8UckIoE4YQ5KESVcNudyXOR8uqIkliTEgJ3RoketfG6pmzLdeZF0H/wjE9/cCEitBl7Q=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
@@ -404,7 +404,7 @@
 
 "@babel/plugin-proposal-object-rest-spread@^7.20.2":
   "integrity" "sha512-d2S98yCiLxDVmBmE8UjGcfPvNEUbA1U5q5WxaWFUGRzJSVAZqm5W6MbPct0jxnegUZ0niLeNX+IOzEs7wYg9Dg=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/compat-data" "^7.20.5"
@@ -415,7 +415,7 @@
 
 "@babel/plugin-proposal-optional-catch-binding@^7.18.6":
   "integrity" "sha512-Q40HEhs9DJQyaZfUjjn6vE8Cv4GmMHCYuMGIWUnlxH6400VGxOuwWsPt4FxXxJkC/5eOzgn0z21M9gMT4MOhbw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-optional-catch-binding/-/plugin-proposal-optional-catch-binding-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-optional-catch-binding/-/plugin-proposal-optional-catch-binding-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
@@ -423,7 +423,7 @@
 
 "@babel/plugin-proposal-optional-chaining@^7.18.9", "@babel/plugin-proposal-optional-chaining@^7.20.7":
   "integrity" "sha512-T+A7b1kfjtRM51ssoOfS1+wbyCVqorfyZhT99TvxxLMirPShD8CzKMRepMlCBGM5RpHMbn8s+5MMHnPstJH6mQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
@@ -432,7 +432,7 @@
 
 "@babel/plugin-proposal-private-methods@^7.18.6":
   "integrity" "sha512-nutsvktDItsNn4rpGItSNV2sz1XwS+nfU0Rg8aCx3W3NOKVzdMjJRu0O5OkgDp3ZGICSTbgRpxZoWsxoKRvbeA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-private-methods/-/plugin-proposal-private-methods-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.18.6"
@@ -440,7 +440,7 @@
 
 "@babel/plugin-proposal-private-property-in-object@^7.18.6":
   "integrity" "sha512-Vq7b9dUA12ByzB4EjQTPo25sFhY+08pQDBSZRtUAkj7lb7jahaHR5igera16QZ+3my1nYR4dKsNdYj5IjPHilQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.20.5.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.20.5.tgz"
   "version" "7.20.5"
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.18.6"
@@ -450,7 +450,7 @@
 
 "@babel/plugin-proposal-unicode-property-regex@^7.18.6", "@babel/plugin-proposal-unicode-property-regex@^7.4.4":
   "integrity" "sha512-2BShG/d5yoZyXZfVePH91urL5wTG6ASZU9M4o03lKK8u8UW1y08OMttBSOADTcJrnPMpvDXRG3G8fyLh4ovs8w=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.18.6"
@@ -458,133 +458,133 @@
 
 "@babel/plugin-syntax-async-generators@^7.8.4":
   "integrity" "sha512-tycmZxkGfZaxhMRbXlPXuVFpdWlXpir2W4AMhSJgRKzk/eDlIXOhb2LHWoLpDF7TEHylV5zNhykX6KAgHJmTNw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.8.4.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-async-generators/-/plugin-syntax-async-generators-7.8.4.tgz"
   "version" "7.8.4"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-class-properties@^7.12.13":
   "integrity" "sha512-fm4idjKla0YahUNgFNLCB0qySdsoPiZP3iQE3rky0mBUtMZ23yDJ9SJdg6dXTSDnulOVqiF3Hgr9nbXvXTQZYA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.13.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.13.tgz"
   "version" "7.12.13"
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-syntax-class-static-block@^7.14.5":
   "integrity" "sha512-b+YyPmr6ldyNnM6sqYeMWE+bgJcJpO6yS4QD7ymxgH34GBPNDM/THBh8iunyvKIZztiwLH4CJZ0RxTk9emgpjw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-class-static-block/-/plugin-syntax-class-static-block-7.14.5.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-class-static-block/-/plugin-syntax-class-static-block-7.14.5.tgz"
   "version" "7.14.5"
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-decorators@^7.19.0":
   "integrity" "sha512-xaBZUEDntt4faL1yN8oIFlhfXeQAWJW7CLKYsHTUqriCUbj8xOra8bfxxKGi/UwExPFBuPdH4XfHc9rGQhrVkQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.19.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-decorators/-/plugin-syntax-decorators-7.19.0.tgz"
   "version" "7.19.0"
   dependencies:
     "@babel/helper-plugin-utils" "^7.19.0"
 
 "@babel/plugin-syntax-dynamic-import@^7.8.3":
   "integrity" "sha512-5gdGbFon+PszYzqs83S3E5mpi7/y/8M9eC90MRTZfduQOYW76ig6SOSPNe41IG5LoP3FGBn2N0RjVDSQiS94kQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.8.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.8.3.tgz"
   "version" "7.8.3"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-export-namespace-from@^7.8.3":
   "integrity" "sha512-MXf5laXo6c1IbEbegDmzGPwGNTsHZmEy6QGznu5Sh2UCWvueywb2ee+CCE4zQiZstxU9BMoQO9i6zUFSY0Kj0Q=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.8.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.8.3.tgz"
   "version" "7.8.3"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.3"
 
 "@babel/plugin-syntax-import-assertions@^7.20.0":
   "integrity" "sha512-IUh1vakzNoWalR8ch/areW7qFopR2AEw03JlG7BbrDqmQ4X3q9uuipQwSGrUn7oGiemKjtSLDhNtQHzMHr1JdQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-import-assertions/-/plugin-syntax-import-assertions-7.20.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-import-assertions/-/plugin-syntax-import-assertions-7.20.0.tgz"
   "version" "7.20.0"
   dependencies:
     "@babel/helper-plugin-utils" "^7.19.0"
 
 "@babel/plugin-syntax-json-strings@^7.8.3":
   "integrity" "sha512-lY6kdGpWHvjoe2vk4WrAapEuBR69EMxZl+RoGRhrFGNYVK8mOPAW8VfbT/ZgrFbXlDNiiaxQnAtgVCZ6jv30EA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.8.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-json-strings/-/plugin-syntax-json-strings-7.8.3.tgz"
   "version" "7.8.3"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-jsx@^7.0.0", "@babel/plugin-syntax-jsx@^7.12.13", "@babel/plugin-syntax-jsx@^7.2.0":
   "integrity" "sha512-6mmljtAedFGTWu2p/8WIORGwy+61PLgOMPOdazc7YoJ9ZCWUyFy3A6CpPkRKLKD1ToAesxX8KGEViAiLo9N+7Q=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-jsx/-/plugin-syntax-jsx-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-syntax-logical-assignment-operators@^7.10.4":
   "integrity" "sha512-d8waShlpFDinQ5MtvGU9xDAOzKH47+FFoney2baFIoMr952hKOLp1HR7VszoZvOsV/4+RRszNY7D17ba0te0ig=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-logical-assignment-operators/-/plugin-syntax-logical-assignment-operators-7.10.4.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-logical-assignment-operators/-/plugin-syntax-logical-assignment-operators-7.10.4.tgz"
   "version" "7.10.4"
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
 "@babel/plugin-syntax-nullish-coalescing-operator@^7.8.3":
   "integrity" "sha512-aSff4zPII1u2QD7y+F8oDsz19ew4IGEJg9SVW+bqwpwtfFleiQDMdzA/R+UlWDzfnHFCxxleFT0PMIrR36XLNQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz"
   "version" "7.8.3"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-numeric-separator@^7.10.4":
   "integrity" "sha512-9H6YdfkcK/uOnY/K7/aA2xpzaAgkQn37yzWUMRK7OaPOqOpGS1+n0H5hxT9AUw9EsSjPW8SVyMJwYRtWs3X3ug=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.10.4.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.10.4.tgz"
   "version" "7.10.4"
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
 "@babel/plugin-syntax-object-rest-spread@^7.8.3":
   "integrity" "sha512-XoqMijGZb9y3y2XskN+P1wUGiVwWZ5JmoDRwx5+3GmEplNyVM2s2Dg8ILFQm8rWM48orGy5YpI5Bl8U1y7ydlA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.8.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.8.3.tgz"
   "version" "7.8.3"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-optional-catch-binding@^7.8.3":
   "integrity" "sha512-6VPD0Pc1lpTqw0aKoeRTMiB+kWhAoT24PA+ksWSBrFtl5SIRVpZlwN3NNPQjehA2E/91FV3RjLWoVTglWcSV3Q=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.8.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.8.3.tgz"
   "version" "7.8.3"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-optional-chaining@^7.8.3":
   "integrity" "sha512-KoK9ErH1MBlCPxV0VANkXW2/dw4vlbGDrFgz8bmUsBGYkFRcbRwMh6cIJubdPrkxRwuGdtCk0v/wPTKbQgBjkg=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.8.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.8.3.tgz"
   "version" "7.8.3"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-private-property-in-object@^7.14.5":
   "integrity" "sha512-0wVnp9dxJ72ZUJDV27ZfbSj6iHLoytYZmh3rFcxNnvsJF3ktkzLDZPy/mA17HGsaQT3/DQsWYX1f1QGWkCoVUg=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-private-property-in-object/-/plugin-syntax-private-property-in-object-7.14.5.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-private-property-in-object/-/plugin-syntax-private-property-in-object-7.14.5.tgz"
   "version" "7.14.5"
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-top-level-await@^7.14.5":
   "integrity" "sha512-hx++upLv5U1rgYfwe1xBQUhRmU41NEvpUvrp8jkrSCdvGSnM5/qdRMtylJ6PG5OFkBaHkbTAKTnd3/YyESRHFw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.14.5.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.14.5.tgz"
   "version" "7.14.5"
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-arrow-functions@^7.18.6":
   "integrity" "sha512-3poA5E7dzDomxj9WXWwuD6A5F3kc7VXwIJO+E+J8qtDtS+pXPAhrgEyh+9GBwBgPq1Z+bB+/JD60lp5jsN7JPQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-arrow-functions/-/plugin-transform-arrow-functions-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-arrow-functions/-/plugin-transform-arrow-functions-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
 
 "@babel/plugin-transform-async-to-generator@^7.18.6":
   "integrity" "sha512-Uo5gwHPT9vgnSXQxqGtpdufUiWp96gk7yiP4Mp5bm1QMkEmLXBO7PAGYbKoJ6DhAwiNkcHFBol/x5zZZkL/t0Q=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-async-to-generator/-/plugin-transform-async-to-generator-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-async-to-generator/-/plugin-transform-async-to-generator-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-module-imports" "^7.18.6"
@@ -593,21 +593,21 @@
 
 "@babel/plugin-transform-block-scoped-functions@^7.18.6":
   "integrity" "sha512-ExUcOqpPWnliRcPqves5HJcJOvHvIIWfuS4sroBUenPuMdmW+SMHDakmtS7qOo13sVppmUijqeTv7qqGsvURpQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-block-scoped-functions/-/plugin-transform-block-scoped-functions-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-block-scoped-functions/-/plugin-transform-block-scoped-functions-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-block-scoping@^7.20.2":
   "integrity" "sha512-Vv4DMZ6MiNOhu/LdaZsT/bsLRxgL94d269Mv4R/9sp6+Mp++X/JqypZYypJXLlM4mlL352/Egzbzr98iABH1CA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.20.15.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-block-scoping/-/plugin-transform-block-scoping-7.20.15.tgz"
   "version" "7.20.15"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
 
 "@babel/plugin-transform-classes@^7.20.2":
   "integrity" "sha512-LWYbsiXTPKl+oBlXUGlwNlJZetXD5Am+CyBdqhPsDVjM9Jc8jwBJFrKhHf900Kfk2eZG1y9MAG3UNajol7A4VQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-classes/-/plugin-transform-classes-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-classes/-/plugin-transform-classes-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.18.6"
@@ -622,7 +622,7 @@
 
 "@babel/plugin-transform-computed-properties@^7.18.9":
   "integrity" "sha512-Lz7MvBK6DTjElHAmfu6bfANzKcxpyNPeYBGEafyA6E5HtRpjpZwU+u7Qrgz/2OR0z+5TvKYbPdphfSaAcZBrYQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-computed-properties/-/plugin-transform-computed-properties-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
@@ -630,14 +630,14 @@
 
 "@babel/plugin-transform-destructuring@^7.20.2":
   "integrity" "sha512-Xwg403sRrZb81IVB79ZPqNQME23yhugYVqgTxAhT99h485F4f+GMELFhhOsscDUB7HCswepKeCKLn/GZvUKoBA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-destructuring/-/plugin-transform-destructuring-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
 
 "@babel/plugin-transform-dotall-regex@^7.18.6", "@babel/plugin-transform-dotall-regex@^7.4.4":
   "integrity" "sha512-6S3jpun1eEbAxq7TdjLotAsl4WpQI9DxfkycRcKrjhQYzU87qpXdknpBg/e+TdcMehqGnLFi7tnFUBR02Vq6wg=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.18.6"
@@ -645,14 +645,14 @@
 
 "@babel/plugin-transform-duplicate-keys@^7.18.9":
   "integrity" "sha512-d2bmXCtZXYc59/0SanQKbiWINadaJXqtvIQIzd4+hNwkWBgyCd5F/2t1kXoUdvPMrxzPvhK6EMQRROxsue+mfw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-duplicate-keys/-/plugin-transform-duplicate-keys-7.18.9.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-duplicate-keys/-/plugin-transform-duplicate-keys-7.18.9.tgz"
   "version" "7.18.9"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.9"
 
 "@babel/plugin-transform-exponentiation-operator@^7.18.6":
   "integrity" "sha512-wzEtc0+2c88FVR34aQmiz56dxEkxr2g8DQb/KfaFa1JYXOFVsbhvAonFN6PwVWj++fKmku8NP80plJ5Et4wqHw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-exponentiation-operator/-/plugin-transform-exponentiation-operator-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-exponentiation-operator/-/plugin-transform-exponentiation-operator-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-builder-binary-assignment-operator-visitor" "^7.18.6"
@@ -660,14 +660,14 @@
 
 "@babel/plugin-transform-for-of@^7.18.8":
   "integrity" "sha512-yEfTRnjuskWYo0k1mHUqrVWaZwrdq8AYbfrpqULOJOaucGSp4mNMVps+YtA8byoevxS/urwU75vyhQIxcCgiBQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.18.8.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-for-of/-/plugin-transform-for-of-7.18.8.tgz"
   "version" "7.18.8"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-function-name@^7.18.9":
   "integrity" "sha512-WvIBoRPaJQ5yVHzcnJFor7oS5Ls0PYixlTYE63lCj2RtdQEl15M68FXQlxnG6wdraJIXRdR7KI+hQ7q/9QjrCQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-function-name/-/plugin-transform-function-name-7.18.9.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-function-name/-/plugin-transform-function-name-7.18.9.tgz"
   "version" "7.18.9"
   dependencies:
     "@babel/helper-compilation-targets" "^7.18.9"
@@ -676,21 +676,21 @@
 
 "@babel/plugin-transform-literals@^7.18.9":
   "integrity" "sha512-IFQDSRoTPnrAIrI5zoZv73IFeZu2dhu6irxQjY9rNjTT53VmKg9fenjvoiOWOkJ6mm4jKVPtdMzBY98Fp4Z4cg=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-literals/-/plugin-transform-literals-7.18.9.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-literals/-/plugin-transform-literals-7.18.9.tgz"
   "version" "7.18.9"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.9"
 
 "@babel/plugin-transform-member-expression-literals@^7.18.6":
   "integrity" "sha512-qSF1ihLGO3q+/g48k85tUjD033C29TNTVB2paCwZPVmOsjn9pClvYYrM2VeJpBY2bcNkuny0YUyTNRyRxJ54KA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-modules-amd@^7.19.6":
   "integrity" "sha512-NuzCt5IIYOW0O30UvqktzHYR2ud5bOWbY0yaxWZ6G+aFzOMJvrs5YHNikrbdaT15+KNO31nPOy5Fim3ku6Zb5g=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.20.11.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-modules-amd/-/plugin-transform-modules-amd-7.20.11.tgz"
   "version" "7.20.11"
   dependencies:
     "@babel/helper-module-transforms" "^7.20.11"
@@ -698,7 +698,7 @@
 
 "@babel/plugin-transform-modules-commonjs@^7.19.6":
   "integrity" "sha512-S8e1f7WQ7cimJQ51JkAaDrEtohVEitXjgCGAS2N8S31Y42E+kWwfSz83LYz57QdBm7q9diARVqanIaH2oVgQnw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.20.11.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.20.11.tgz"
   "version" "7.20.11"
   dependencies:
     "@babel/helper-module-transforms" "^7.20.11"
@@ -707,7 +707,7 @@
 
 "@babel/plugin-transform-modules-systemjs@^7.19.6":
   "integrity" "sha512-vVu5g9BPQKSFEmvt2TA4Da5N+QVS66EX21d8uoOihC+OCpUoGvzVsXeqFdtAEfVa5BILAeFt+U7yVmLbQnAJmw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.20.11.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.20.11.tgz"
   "version" "7.20.11"
   dependencies:
     "@babel/helper-hoist-variables" "^7.18.6"
@@ -717,7 +717,7 @@
 
 "@babel/plugin-transform-modules-umd@^7.18.6":
   "integrity" "sha512-dcegErExVeXcRqNtkRU/z8WlBLnvD4MRnHgNs3MytRO1Mn1sHRyhbcpYbVMGclAqOjdW+9cfkdZno9dFdfKLfQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-modules-umd/-/plugin-transform-modules-umd-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-modules-umd/-/plugin-transform-modules-umd-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-module-transforms" "^7.18.6"
@@ -725,7 +725,7 @@
 
 "@babel/plugin-transform-named-capturing-groups-regex@^7.19.1":
   "integrity" "sha512-mOW4tTzi5iTLnw+78iEq3gr8Aoq4WNRGpmSlrogqaiCBoR1HFhpU4JkpQFOHfeYx3ReVIFWOQJS4aZBRvuZ6mA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.20.5.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.20.5.tgz"
   "version" "7.20.5"
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.20.5"
@@ -733,14 +733,14 @@
 
 "@babel/plugin-transform-new-target@^7.18.6":
   "integrity" "sha512-DjwFA/9Iu3Z+vrAn+8pBUGcjhxKguSMlsFqeCKbhb9BAV756v0krzVK04CRDi/4aqmk8BsHb4a/gFcaA5joXRw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-new-target/-/plugin-transform-new-target-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-new-target/-/plugin-transform-new-target-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-object-super@^7.18.6":
   "integrity" "sha512-uvGz6zk+pZoS1aTZrOvrbj6Pp/kK2mp45t2B+bTDre2UgsZZ8EZLSJtUg7m/no0zOJUWgFONpB7Zv9W2tSaFlA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-object-super/-/plugin-transform-object-super-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-object-super/-/plugin-transform-object-super-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
@@ -748,21 +748,21 @@
 
 "@babel/plugin-transform-parameters@^7.20.1", "@babel/plugin-transform-parameters@^7.20.7":
   "integrity" "sha512-WiWBIkeHKVOSYPO0pWkxGPfKeWrCJyD3NJ53+Lrp/QMSZbsVPovrVl2aWZ19D/LTVnaDv5Ap7GJ/B2CTOZdrfA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-parameters/-/plugin-transform-parameters-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
 
 "@babel/plugin-transform-property-literals@^7.18.6":
   "integrity" "sha512-cYcs6qlgafTud3PAzrrRNbQtfpQ8+y/+M5tKmksS9+M1ckbH6kzY8MrexEM9mcA6JDsukE19iIRvAyYl463sMg=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-property-literals/-/plugin-transform-property-literals-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-property-literals/-/plugin-transform-property-literals-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-regenerator@^7.18.6":
   "integrity" "sha512-kW/oO7HPBtntbsahzQ0qSE3tFvkFwnbozz3NWFhLGqH75vLEg+sCGngLlhVkePlCs3Jv0dBBHDzCHxNiFAQKCQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.20.5.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-regenerator/-/plugin-transform-regenerator-7.20.5.tgz"
   "version" "7.20.5"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
@@ -770,14 +770,14 @@
 
 "@babel/plugin-transform-reserved-words@^7.18.6":
   "integrity" "sha512-oX/4MyMoypzHjFrT1CdivfKZ+XvIPMFXwwxHp/r0Ddy2Vuomt4HDFGmft1TAY2yiTKiNSsh3kjBAzcM8kSdsjA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-reserved-words/-/plugin-transform-reserved-words-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-reserved-words/-/plugin-transform-reserved-words-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-runtime@^7.12.15":
   "integrity" "sha512-PRH37lz4JU156lYFW1p8OxE5i7d6Sl/zV58ooyr+q1J1lnQPyg5tIiXlIwNVhJaY4W3TmOtdc8jqdXQcB1v5Yw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.19.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-runtime/-/plugin-transform-runtime-7.19.6.tgz"
   "version" "7.19.6"
   dependencies:
     "@babel/helper-module-imports" "^7.18.6"
@@ -789,14 +789,14 @@
 
 "@babel/plugin-transform-shorthand-properties@^7.18.6":
   "integrity" "sha512-eCLXXJqv8okzg86ywZJbRn19YJHU4XUa55oz2wbHhaQVn/MM+XhukiT7SYqp/7o00dg52Rj51Ny+Ecw4oyoygw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-spread@^7.19.0":
   "integrity" "sha512-ewBbHQ+1U/VnH1fxltbJqDeWBU1oNLG8Dj11uIv3xVf7nrQu0bPGe5Rf716r7K5Qz+SqtAOVswoVunoiBtGhxw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-spread/-/plugin-transform-spread-7.20.7.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-spread/-/plugin-transform-spread-7.20.7.tgz"
   "version" "7.20.7"
   dependencies:
     "@babel/helper-plugin-utils" "^7.20.2"
@@ -804,35 +804,35 @@
 
 "@babel/plugin-transform-sticky-regex@^7.18.6":
   "integrity" "sha512-kfiDrDQ+PBsQDO85yj1icueWMfGfJFKN1KCkndygtu/C9+XUfydLC8Iv5UYJqRwy4zk8EcplRxEOeLyjq1gm6Q=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-sticky-regex/-/plugin-transform-sticky-regex-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-sticky-regex/-/plugin-transform-sticky-regex-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-template-literals@^7.18.9":
   "integrity" "sha512-S8cOWfT82gTezpYOiVaGHrCbhlHgKhQt8XH5ES46P2XWmX92yisoZywf5km75wv5sYcXDUCLMmMxOLCtthDgMA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-template-literals/-/plugin-transform-template-literals-7.18.9.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-template-literals/-/plugin-transform-template-literals-7.18.9.tgz"
   "version" "7.18.9"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.9"
 
 "@babel/plugin-transform-typeof-symbol@^7.18.9":
   "integrity" "sha512-SRfwTtF11G2aemAZWivL7PD+C9z52v9EvMqH9BuYbabyPuKUvSWks3oCg6041pT925L4zVFqaVBeECwsmlguEw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-typeof-symbol/-/plugin-transform-typeof-symbol-7.18.9.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-typeof-symbol/-/plugin-transform-typeof-symbol-7.18.9.tgz"
   "version" "7.18.9"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.9"
 
 "@babel/plugin-transform-unicode-escapes@^7.18.10":
   "integrity" "sha512-kKAdAI+YzPgGY/ftStBFXTI1LZFju38rYThnfMykS+IXy8BVx+res7s2fxf1l8I35DV2T97ezo6+SGrXz6B3iQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-unicode-escapes/-/plugin-transform-unicode-escapes-7.18.10.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-unicode-escapes/-/plugin-transform-unicode-escapes-7.18.10.tgz"
   "version" "7.18.10"
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.9"
 
 "@babel/plugin-transform-unicode-regex@^7.18.6":
   "integrity" "sha512-gE7A6Lt7YLnNOL3Pb9BNeZvi+d8l7tcRrG4+pwJjK9hD2xX4mEvjlQW60G9EEmfXVYRPv9VRQcyegIVHCql/AA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-unicode-regex/-/plugin-transform-unicode-regex-7.18.6.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fplugin-transform-unicode-regex/-/plugin-transform-unicode-regex-7.18.6.tgz"
   "version" "7.18.6"
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.18.6"
@@ -840,7 +840,7 @@
 
 "@babel/preset-env@^7.12.16":
   "integrity" "sha512-1G0efQEWR1EHkKvKHqbG+IN/QdgwfByUpM5V5QroDzGV2t3S/WXNQd693cHiHTlCFMpr9B6FkPFXDA2lQcKoDg=="
-  "resolved" "https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.20.2.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fpreset-env/-/preset-env-7.20.2.tgz"
   "version" "7.20.2"
   dependencies:
     "@babel/compat-data" "^7.20.1"
@@ -921,7 +921,7 @@
 
 "@babel/preset-modules@^0.1.5":
   "integrity" "sha512-A57th6YRG7oR3cq/yt/Y84MvGgE0eJG2F1JLhKuyG+jFxEgrd/HAMJatiFtmOiZurz+0DkrvbheCLaV5f2JfjA=="
-  "resolved" "https://registry.npmjs.org/@babel/preset-modules/-/preset-modules-0.1.5.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fpreset-modules/-/preset-modules-0.1.5.tgz"
   "version" "0.1.5"
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
@@ -930,9 +930,14 @@
     "@babel/types" "^7.4.4"
     "esutils" "^2.0.2"
 
+"@babel/regjsgen@^0.8.0":
+  "integrity" "sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA=="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fregjsgen/-/regjsgen-0.8.0.tgz"
+  "version" "0.8.0"
+
 "@babel/runtime@^7.12.13", "@babel/runtime@^7.8.4":
   "integrity" "sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA=="
-  "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.13.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@babel%2fruntime/-/runtime-7.20.13.tgz"
   "version" "7.20.13"
   dependencies:
     "regenerator-runtime" "^0.13.11"
@@ -1524,17 +1529,17 @@
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.4.0":
   "integrity" "sha512-JkqXfCkUDp4PIlFdDQ0TdXoIejMtTHP67/pvxlgeY+u5k3LEdKuWZ3LK6xkxo52uDoABIVyRwqVkfLQJhk7VBA=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.4.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.4.0.tgz"
   "version" "1.4.0"
 
 "@vue/babel-helper-vue-transform-on@^1.0.2":
   "integrity" "sha512-hz4R8tS5jMn8lDq6iD+yWL6XNB699pGIVLk7WSJnn1dbpjaazsjZQkieJoRX6gW5zpYSCFqQ7jUquPNY65tQYA=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-helper-vue-transform-on/-/babel-helper-vue-transform-on-1.0.2.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-helper-vue-transform-on/-/babel-helper-vue-transform-on-1.0.2.tgz"
   "version" "1.0.2"
 
 "@vue/babel-plugin-jsx@^1.0.3":
   "integrity" "sha512-j2uVfZjnB5+zkcbc/zsOc0fSNGCMMjaEXP52wdwdIfn0qjFfEYpYZBFKFg+HHnQeJCVrjOeO0YxgaL7DMrym9w=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-plugin-jsx/-/babel-plugin-jsx-1.1.1.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-plugin-jsx/-/babel-plugin-jsx-1.1.1.tgz"
   "version" "1.1.1"
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
@@ -1549,7 +1554,7 @@
 
 "@vue/babel-plugin-transform-vue-jsx@^1.4.0":
   "integrity" "sha512-Fmastxw4MMx0vlgLS4XBX0XiBbUFzoMGeVXuMV08wyOfXdikAFqBTuYPR0tlk+XskL19EzHc39SgjrPGY23JnA=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-plugin-transform-vue-jsx/-/babel-plugin-transform-vue-jsx-1.4.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-plugin-transform-vue-jsx/-/babel-plugin-transform-vue-jsx-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
@@ -1561,7 +1566,7 @@
 
 "@vue/babel-preset-app@^5.0.8":
   "integrity" "sha512-yl+5qhpjd8e1G4cMXfORkkBlvtPCIgmRf3IYCWYDKIQ7m+PPa5iTm4feiNmCMD6yGqQWMhhK/7M3oWGL9boKwg=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-preset-app/-/babel-preset-app-5.0.8.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-preset-app/-/babel-preset-app-5.0.8.tgz"
   "version" "5.0.8"
   dependencies:
     "@babel/core" "^7.12.16"
@@ -1583,7 +1588,7 @@
 
 "@vue/babel-preset-jsx@^1.1.2":
   "integrity" "sha512-QmfRpssBOPZWL5xw7fOuHNifCQcNQC1PrOo/4fu6xlhlKJJKSA3HqX92Nvgyx8fqHZTUGMPHmFA+IDqwXlqkSA=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-preset-jsx/-/babel-preset-jsx-1.4.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-preset-jsx/-/babel-preset-jsx-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "@vue/babel-helper-vue-jsx-merge-props" "^1.4.0"
@@ -1597,35 +1602,35 @@
 
 "@vue/babel-sugar-composition-api-inject-h@^1.4.0":
   "integrity" "sha512-VQq6zEddJHctnG4w3TfmlVp5FzDavUSut/DwR0xVoe/mJKXyMcsIibL42wPntozITEoY90aBV0/1d2KjxHU52g=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-sugar-composition-api-inject-h/-/babel-sugar-composition-api-inject-h-1.4.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-sugar-composition-api-inject-h/-/babel-sugar-composition-api-inject-h-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
 
 "@vue/babel-sugar-composition-api-render-instance@^1.4.0":
   "integrity" "sha512-6ZDAzcxvy7VcnCjNdHJ59mwK02ZFuP5CnucloidqlZwVQv5CQLijc3lGpR7MD3TWFi78J7+a8J56YxbCtHgT9Q=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-sugar-composition-api-render-instance/-/babel-sugar-composition-api-render-instance-1.4.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-sugar-composition-api-render-instance/-/babel-sugar-composition-api-render-instance-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
 
 "@vue/babel-sugar-functional-vue@^1.4.0":
   "integrity" "sha512-lTEB4WUFNzYt2In6JsoF9sAYVTo84wC4e+PoZWSgM6FUtqRJz7wMylaEhSRgG71YF+wfLD6cc9nqVeXN2rwBvw=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-sugar-functional-vue/-/babel-sugar-functional-vue-1.4.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-sugar-functional-vue/-/babel-sugar-functional-vue-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
 
 "@vue/babel-sugar-inject-h@^1.4.0":
   "integrity" "sha512-muwWrPKli77uO2fFM7eA3G1lAGnERuSz2NgAxuOLzrsTlQl8W4G+wwbM4nB6iewlKbwKRae3nL03UaF5ffAPMA=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-sugar-inject-h/-/babel-sugar-inject-h-1.4.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-sugar-inject-h/-/babel-sugar-inject-h-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
 
 "@vue/babel-sugar-v-model@^1.4.0":
   "integrity" "sha512-0t4HGgXb7WHYLBciZzN5s0Hzqan4Ue+p/3FdQdcaHAb7s5D9WZFGoSxEZHrR1TFVZlAPu1bejTKGeAzaaG3NCQ=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-sugar-v-model/-/babel-sugar-v-model-1.4.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-sugar-v-model/-/babel-sugar-v-model-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
@@ -1637,7 +1642,7 @@
 
 "@vue/babel-sugar-v-on@^1.4.0":
   "integrity" "sha512-m+zud4wKLzSKgQrWwhqRObWzmTuyzl6vOP7024lrpeJM4x2UhQtRDLgYjXAw9xBXjCwS0pP9kXjg91F9ZNo9JA=="
-  "resolved" "https://registry.npmjs.org/@vue/babel-sugar-v-on/-/babel-sugar-v-on-1.4.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fbabel-sugar-v-on/-/babel-sugar-v-on-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
@@ -1765,7 +1770,7 @@
 
 "@vue/compiler-core@3.2.47":
   "integrity" "sha512-p4D7FDnQb7+YJmO2iPEv0SQNeNzcbHdGByJDsT4lynf63AFkOTFN07HsiRSvjGo0QrxR/o3d0hUyNCUnBU2Tig=="
-  "resolved" "https://registry.npmjs.org/@vue/compiler-core/-/compiler-core-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fcompiler-core/-/compiler-core-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@babel/parser" "^7.16.4"
@@ -1775,7 +1780,7 @@
 
 "@vue/compiler-dom@3.2.47":
   "integrity" "sha512-dBBnEHEPoftUiS03a4ggEig74J2YBZ2UIeyfpcRM2tavgMWo4bsEfgCGsu+uJIL/vax9S+JztH8NmQerUo7shQ=="
-  "resolved" "https://registry.npmjs.org/@vue/compiler-dom/-/compiler-dom-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fcompiler-dom/-/compiler-dom-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@vue/compiler-core" "3.2.47"
@@ -1783,7 +1788,7 @@
 
 "@vue/compiler-sfc@3.2.47":
   "integrity" "sha512-rog05W+2IFfxjMcFw10tM9+f7i/+FFpZJJ5XHX72NP9eC2uRD+42M3pYcQqDXVYoj74kHMSEdQ/WmCjt8JFksQ=="
-  "resolved" "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fcompiler-sfc/-/compiler-sfc-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@babel/parser" "^7.16.4"
@@ -1799,7 +1804,7 @@
 
 "@vue/compiler-ssr@3.2.47":
   "integrity" "sha512-wVXC+gszhulcMD8wpxMsqSOpvDZ6xKXSVWkf50Guf/S+28hTAXPDYRTbLQ3EDkOP5Xz/+SY37YiwDquKbJOgZw=="
-  "resolved" "https://registry.npmjs.org/@vue/compiler-ssr/-/compiler-ssr-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fcompiler-ssr/-/compiler-ssr-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@vue/compiler-dom" "3.2.47"
@@ -1821,7 +1826,7 @@
   optionalDependencies:
     "prettier" "^1.18.2 || ^2.0.0"
 
-"@vue/devtools-api@^6.0.0-beta.11", "@vue/devtools-api@^6.4.5":
+"@vue/devtools-api@^6.0.0-beta.11", "@vue/devtools-api@^6.0.0-beta.14":
   "integrity" "sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q=="
   "resolved" "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.5.0.tgz"
   "version" "6.5.0"
@@ -1837,7 +1842,7 @@
 
 "@vue/reactivity-transform@3.2.47":
   "integrity" "sha512-m8lGXw8rdnPVVIdIFhf0LeQ/ixyHkH5plYuS83yop5n7ggVJU+z5v0zecwEnX7fa7HNLBhh2qngJJkxpwEEmYA=="
-  "resolved" "https://registry.npmjs.org/@vue/reactivity-transform/-/reactivity-transform-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2freactivity-transform/-/reactivity-transform-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@babel/parser" "^7.16.4"
@@ -1848,14 +1853,14 @@
 
 "@vue/reactivity@3.2.47":
   "integrity" "sha512-7khqQ/75oyyg+N/e+iwV6lpy1f5wq759NdlS1fpAhFXa8VeAIKGgk2E/C4VF59lx5b+Ezs5fpp/5WsRYXQiKxQ=="
-  "resolved" "https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2freactivity/-/reactivity-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@vue/shared" "3.2.47"
 
 "@vue/runtime-core@3.2.47":
   "integrity" "sha512-RZxbLQIRB/K0ev0K9FXhNbBzT32H9iRtYbaXb0ZIz2usLms/D55dJR2t6cIEUn6vyhS3ALNvNthI+Q95C+NOpA=="
-  "resolved" "https://registry.npmjs.org/@vue/runtime-core/-/runtime-core-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fruntime-core/-/runtime-core-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@vue/reactivity" "3.2.47"
@@ -1863,7 +1868,7 @@
 
 "@vue/runtime-dom@3.2.47":
   "integrity" "sha512-ArXrFTjS6TsDei4qwNvgrdmHtD930KgSKGhS5M+j8QxXrDJYLqYw4RRcDy1bz1m1wMmb6j+zGLifdVHtkXA7gA=="
-  "resolved" "https://registry.npmjs.org/@vue/runtime-dom/-/runtime-dom-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fruntime-dom/-/runtime-dom-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@vue/runtime-core" "3.2.47"
@@ -1872,7 +1877,7 @@
 
 "@vue/server-renderer@3.2.47":
   "integrity" "sha512-dN9gc1i8EvmP9RCzvneONXsKfBRgqFeFZLurmHOveL7oH6HiFXJw5OGu294n1nHc/HMgTy6LulU/tv5/A7f/LA=="
-  "resolved" "https://registry.npmjs.org/@vue/server-renderer/-/server-renderer-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fserver-renderer/-/server-renderer-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@vue/compiler-ssr" "3.2.47"
@@ -1880,7 +1885,7 @@
 
 "@vue/shared@3.2.47":
   "integrity" "sha512-BHGyyGN3Q97EZx0taMQ+OLNuZcW3d37ZEVmEAyeoA9ERdGvm9Irc/0Fua8SNyOtV1w6BS4q25wbMzJujO9HIfQ=="
-  "resolved" "https://registry.npmjs.org/@vue/shared/-/shared-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/@vue%2fshared/-/shared-3.2.47.tgz"
   "version" "3.2.47"
 
 "@vue/vue-loader-v15@npm:vue-loader@^15.9.7":
@@ -2361,14 +2366,14 @@
 
 "babel-plugin-dynamic-import-node@^2.3.3":
   "integrity" "sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ=="
-  "resolved" "https://registry.npmjs.org/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz"
   "version" "2.3.3"
   dependencies:
     "object.assign" "^4.1.0"
 
 "babel-plugin-polyfill-corejs2@^0.3.3":
   "integrity" "sha512-8hOdmFYFSZhqg2C/JgLUQ+t52o5nirNwaWM2B9LWteozwIvM14VSwdsCAUET10qT+kmySAlseadmfeeSWFCy+Q=="
-  "resolved" "https://registry.npmjs.org/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.3.3.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.3.3.tgz"
   "version" "0.3.3"
   dependencies:
     "@babel/compat-data" "^7.17.7"
@@ -2377,7 +2382,7 @@
 
 "babel-plugin-polyfill-corejs3@^0.6.0":
   "integrity" "sha512-+eHqR6OPcBhJOGgsIar7xoAB1GcSwVUA3XjAd7HJNzOXT4wv6/H7KIdA/Nc60cvUlDbKApmqNvD1B1bzOt4nyA=="
-  "resolved" "https://registry.npmjs.org/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.6.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.6.0.tgz"
   "version" "0.6.0"
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.3"
@@ -2385,7 +2390,7 @@
 
 "babel-plugin-polyfill-regenerator@^0.4.1":
   "integrity" "sha512-NtQGmyQDXjQqQ+IzRkBVwEOz9lQ4zxAQZgoAYEtU9dJjnl1Oc98qnN7jcp+bE7O7aYzVpavXE3/VKXNzUbh7aw=="
-  "resolved" "https://registry.npmjs.org/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.4.1.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.4.1.tgz"
   "version" "0.4.1"
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.3"
@@ -2568,7 +2573,7 @@
 
 "camelcase@^6.0.0":
   "integrity" "sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA=="
-  "resolved" "https://registry.npmjs.org/camelcase/-/camelcase-6.3.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/camelcase/-/camelcase-6.3.0.tgz"
   "version" "6.3.0"
 
 "caniuse-api@^3.0.0":
@@ -2925,7 +2930,7 @@
 
 "core-js-compat@^3.25.1", "core-js-compat@^3.8.3":
   "integrity" "sha512-welaYuF7ZtbYKGrIy7y3eb40d37rG1FvzEOfe7hSLd2iD6duMDqUhRfSvCGyC46HhR6Y8JXXdZ2lnRUMkPBpvg=="
-  "resolved" "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.27.2.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/core-js-compat/-/core-js-compat-3.27.2.tgz"
   "version" "3.27.2"
   dependencies:
     "browserslist" "^4.21.4"
@@ -3103,7 +3108,7 @@
 
 "csstype@^2.6.8":
   "integrity" "sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w=="
-  "resolved" "https://registry.npmjs.org/csstype/-/csstype-2.6.21.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/csstype/-/csstype-2.6.21.tgz"
   "version" "2.6.21"
 
 "cz-customizable@^6.3.0":
@@ -4419,13 +4424,13 @@
     "terser" "^5.10.0"
 
 "html-tags@^2.0.0":
-  "integrity" "sha512-+Il6N8cCo2wB/Vd3gqy/8TZhTD3QvcVeQLCnZiGkGCH3JP28IgGAY41giccp2W4R3jfyJPAP318FQTa1yU7K7g=="
-  "resolved" "https://registry.npmjs.org/html-tags/-/html-tags-2.0.0.tgz"
+  "integrity" "sha1-ELMKOGCF9Dzt41PMj6fLDe7qZos="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/html-tags/-/html-tags-2.0.0.tgz"
   "version" "2.0.0"
 
 "html-tags@^3.1.0":
   "integrity" "sha512-vy7ClnArOZwCnqZgvv+ddgHgJiAFXe3Ge9ML5/mBctVJoUoYPCdxVucOywjDARn6CVoh3dRSFdPHy2sX80L0Wg=="
-  "resolved" "https://registry.npmjs.org/html-tags/-/html-tags-3.2.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/html-tags/-/html-tags-3.2.0.tgz"
   "version" "3.2.0"
 
 "html-webpack-plugin@^5.1.0":
@@ -4933,8 +4938,8 @@
   "version" "2.5.2"
 
 "jsesc@~0.5.0":
-  "integrity" "sha512-uZz5UnB7u4T9LvwmFqXii7pZSouaRPorGs5who1Ip7VO0wxanFvBL7GkM6dTHlgX+jhBApRetaWpnDabOeTcnA=="
-  "resolved" "https://registry.npmjs.org/jsesc/-/jsesc-0.5.0.tgz"
+  "integrity" "sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/jsesc/-/jsesc-0.5.0.tgz"
   "version" "0.5.0"
 
 "json-parse-better-errors@^1.0.2":
@@ -5111,8 +5116,8 @@
   "version" "3.0.0"
 
 "lodash.debounce@^4.0.8":
-  "integrity" "sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow=="
-  "resolved" "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
+  "integrity" "sha1-gteb/zCmfEAF/9XiUVMArZyk168="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
   "version" "4.0.8"
 
 "lodash.defaultsdeep@^4.6.1":
@@ -5121,8 +5126,8 @@
   "version" "4.6.1"
 
 "lodash.kebabcase@^4.1.1":
-  "integrity" "sha512-N8XRTIMMqqDgSy4VLKPnJ/+hpGZN+PHQiJnSenYqPaVV/NCqEogTnAdZLQiGKhxX+JCs8waWq2t1XHWKOmlY8g=="
-  "resolved" "https://registry.npmjs.org/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz"
+  "integrity" "sha1-hImxyw0p/4gZXM7KRI/21swpXDY="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz"
   "version" "4.1.1"
 
 "lodash.mapvalues@^4.6.0":
@@ -5218,7 +5223,7 @@
 
 "magic-string@^0.25.7":
   "integrity" "sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ=="
-  "resolved" "https://registry.npmjs.org/magic-string/-/magic-string-0.25.9.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/magic-string/-/magic-string-0.25.9.tgz"
   "version" "0.25.9"
   dependencies:
     "sourcemap-codec" "^1.4.8"
@@ -6392,24 +6397,24 @@
 
 "regenerate-unicode-properties@^10.1.0":
   "integrity" "sha512-d1VudCLoIGitcU/hEg2QqvyGZQmdC0Lf8BqdOMXGFSvJP4bNV1+XqbPQeHHLD51Jh4QJJ225dlIFvY4Ly6MXmQ=="
-  "resolved" "https://registry.npmjs.org/regenerate-unicode-properties/-/regenerate-unicode-properties-10.1.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/regenerate-unicode-properties/-/regenerate-unicode-properties-10.1.0.tgz"
   "version" "10.1.0"
   dependencies:
     "regenerate" "^1.4.2"
 
 "regenerate@^1.4.2":
   "integrity" "sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A=="
-  "resolved" "https://registry.npmjs.org/regenerate/-/regenerate-1.4.2.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/regenerate/-/regenerate-1.4.2.tgz"
   "version" "1.4.2"
 
 "regenerator-runtime@^0.13.11":
   "integrity" "sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg=="
-  "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
   "version" "0.13.11"
 
 "regenerator-transform@^0.15.1":
   "integrity" "sha512-knzmNAcuyxV+gQCufkYcvOqX/qIIfHLv0u5x79kRxuGojfYVky1f15TzZEu2Avte8QGepvUNTnLskf8E6X6Vyg=="
-  "resolved" "https://registry.npmjs.org/regenerator-transform/-/regenerator-transform-0.15.1.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/regenerator-transform/-/regenerator-transform-0.15.1.tgz"
   "version" "0.15.1"
   dependencies:
     "@babel/runtime" "^7.8.4"
@@ -6429,25 +6434,20 @@
   "version" "3.2.0"
 
 "regexpu-core@^5.2.1":
-  "integrity" "sha512-T0+1Zp2wjF/juXMrMxHxidqGYn8U4R+zleSJhX9tQ1PUsS8a9UtYfbsF9LdiVgNX3kiX8RNaKM42nfSgvFJjmw=="
-  "resolved" "https://registry.npmjs.org/regexpu-core/-/regexpu-core-5.2.2.tgz"
-  "version" "5.2.2"
+  "integrity" "sha512-ZdhUQlng0RoscyW7jADnUZ25F5eVtHdMyXSb2PiwafvteRAOJUjFoUPEYZSIfP99fBIs3maLIRfpEddT78wAAQ=="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/regexpu-core/-/regexpu-core-5.3.0.tgz"
+  "version" "5.3.0"
   dependencies:
+    "@babel/regjsgen" "^0.8.0"
     "regenerate" "^1.4.2"
     "regenerate-unicode-properties" "^10.1.0"
-    "regjsgen" "^0.7.1"
     "regjsparser" "^0.9.1"
     "unicode-match-property-ecmascript" "^2.0.0"
     "unicode-match-property-value-ecmascript" "^2.1.0"
 
-"regjsgen@^0.7.1":
-  "integrity" "sha512-RAt+8H2ZEzHeYWxZ3H2z6tF18zyyOnlcdaafLrm21Bguj7uZy6ULibiAFdXEtKQY4Sy7wDTwDiOazasMLc4KPA=="
-  "resolved" "https://registry.npmjs.org/regjsgen/-/regjsgen-0.7.1.tgz"
-  "version" "0.7.1"
-
 "regjsparser@^0.9.1":
   "integrity" "sha512-dQUtn90WanSNl+7mQKcXAgZxvUe7Z0SqXlgzv0za4LwiUhyzBC58yQO3liFoUgu8GiJVInAhJjkj1N0EtQ5nkQ=="
-  "resolved" "https://registry.npmjs.org/regjsparser/-/regjsparser-0.9.1.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/regjsparser/-/regjsparser-0.9.1.tgz"
   "version" "0.9.1"
   dependencies:
     "jsesc" "~0.5.0"
@@ -7151,8 +7151,8 @@
   "version" "1.0.0"
 
 "svg-tags@^1.0.0":
-  "integrity" "sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA=="
-  "resolved" "https://registry.npmjs.org/svg-tags/-/svg-tags-1.0.0.tgz"
+  "integrity" "sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/svg-tags/-/svg-tags-1.0.0.tgz"
   "version" "1.0.0"
 
 "svgo@^2.7.0":
@@ -7417,12 +7417,12 @@
 
 "unicode-canonical-property-names-ecmascript@^2.0.0":
   "integrity" "sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ=="
-  "resolved" "https://registry.npmjs.org/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz"
   "version" "2.0.0"
 
 "unicode-match-property-ecmascript@^2.0.0":
   "integrity" "sha512-5kaZCrbp5mmbz5ulBkDkbY0SsPOjKqVS35VpL9ulMPfSl0J0Xsm+9Evphv9CoIZFwre7aJoa94AY6seMKGVN5Q=="
-  "resolved" "https://registry.npmjs.org/unicode-match-property-ecmascript/-/unicode-match-property-ecmascript-2.0.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/unicode-match-property-ecmascript/-/unicode-match-property-ecmascript-2.0.0.tgz"
   "version" "2.0.0"
   dependencies:
     "unicode-canonical-property-names-ecmascript" "^2.0.0"
@@ -7430,12 +7430,12 @@
 
 "unicode-match-property-value-ecmascript@^2.1.0":
   "integrity" "sha512-qxkjQt6qjg/mYscYMC0XKRn3Rh0wFPlfxB0xkt9CfyTvpX1Ra0+rAmdX2QyAobptSEvuy4RtpPRui6XkV+8wjA=="
-  "resolved" "https://registry.npmjs.org/unicode-match-property-value-ecmascript/-/unicode-match-property-value-ecmascript-2.1.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/unicode-match-property-value-ecmascript/-/unicode-match-property-value-ecmascript-2.1.0.tgz"
   "version" "2.1.0"
 
 "unicode-property-aliases-ecmascript@^2.0.0":
   "integrity" "sha512-6t3foTQI9qne+OZoVQB/8x8rk2k1eVy1gRXhV3oFQ5T6R1dqQ1xtin3XqSlx3+ATBkliTaR/hHyJBm+LVPNM8w=="
-  "resolved" "https://registry.npmjs.org/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.1.0.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.1.0.tgz"
   "version" "2.1.0"
 
 "unimport@^2.1.0":
@@ -7607,11 +7607,11 @@
     "loader-utils" "^2.0.0"
 
 "vue-router@^4.0.3":
-  "integrity" "sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ=="
-  "resolved" "https://registry.npmjs.org/vue-router/-/vue-router-4.1.6.tgz"
-  "version" "4.1.6"
+  "integrity" "sha512-sha6I8fx9HWtvTrFZfxZkiQQBpqSeT+UCwauYjkdOQYRvwsGwimlQQE2ayqUwuuXGzquFpCPoXzYKWlzL4OuXg=="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/vue-router/-/vue-router-4.0.11.tgz"
+  "version" "4.0.11"
   dependencies:
-    "@vue/devtools-api" "^6.4.5"
+    "@vue/devtools-api" "^6.0.0-beta.14"
 
 "vue-style-loader@^4.1.0", "vue-style-loader@^4.1.3":
   "integrity" "sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg=="
@@ -7626,9 +7626,9 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@*", "vue@^2 || ^3.2.13", "vue@^2.6.0 || ^3.2.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.13", "vue@2 || 3", "vue@3.2.47":
+"vue@*", "vue@^2 || ^3.2.13", "vue@^2.6.0 || ^3.2.0", "vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.0.2", "vue@^3.2.0", "vue@^3.2.13", "vue@2 || 3", "vue@3.2.47":
   "integrity" "sha512-60188y/9Dc9WVrAZeUVSDxRQOZ+z+y5nO2ts9jWXSTkMvayiWxCWOWtBQoYjLeccfXkiiPZWAHcV+WTPhkqJHQ=="
-  "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.47.tgz"
+  "resolved" "https://mirrors.cloud.tencent.com/npm/vue/-/vue-3.2.47.tgz"
   "version" "3.2.47"
   dependencies:
     "@vue/compiler-dom" "3.2.47"
@@ -7638,9 +7638,9 @@
     "@vue/shared" "3.2.47"
 
 "vuex@^4.0.0":
-  "integrity" "sha512-hmV6UerDrPcgbSy9ORAtNXDr9M4wlNP4pEFKye4ujJF8oqgFFuxDCdOLS3eNoRTtq5O3hoBDh9Doj1bQMYHRbQ=="
-  "resolved" "https://registry.npmjs.org/vuex/-/vuex-4.1.0.tgz"
-  "version" "4.1.0"
+  "integrity" "sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q=="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/vuex/-/vuex-4.0.2.tgz"
+  "version" "4.0.2"
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.11"
 

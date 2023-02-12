@@ -25,6 +25,7 @@
 import { ref } from 'vue'
 import { User, Lock } from '@element-plus/icons-vue'
 import { useStore } from 'vuex'
+import { ElMessage } from 'element-plus'
 
 const store = useStore()
 const form = ref({
@@ -55,7 +56,7 @@ const handleLogin = () => {
     if (valid) {
       await store.dispatch('app/login', form.value)
     } else {
-      console.log('error submit')
+      ElMessage.error('请填写正确的用户名与密码！')
       return false
     }
   })
