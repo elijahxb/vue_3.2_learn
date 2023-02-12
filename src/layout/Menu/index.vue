@@ -7,6 +7,7 @@
     text-color="#fff"
     router
     unique-opened
+    :collapse = "!store.getters.siderType"
   >
     <el-sub-menu
       :index="item.id.toString()"
@@ -39,6 +40,7 @@
 <script setup>
 import { menuList } from '@/api/menu'
 import { ref } from 'vue'
+import store from '@/store'
 
 const iconList = ref(['user', 'setting', 'shop', 'ticket', 'pie-chart'])
 const icon = ref('menu')
