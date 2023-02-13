@@ -1,10 +1,12 @@
 <template>
-  <div class='navbar' @click='toggleClick'>
-    <Fold id='siderTypeId'></Fold>
+  <div class='navbar' >
+    <Fold id='siderTypeId' @click='toggleClick'></Fold>
+    <Breadcrumb />
   </div>
 </template>
 
 <script setup>
+import Breadcrumb from './components/breadcrumb'
 import { Fold } from '@element-plus/icons-vue'
 import { useStore } from 'vuex'
 import { computed } from 'vue'
