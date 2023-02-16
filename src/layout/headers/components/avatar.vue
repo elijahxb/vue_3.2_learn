@@ -1,6 +1,6 @@
 <template>
   <el-dropdown>
-    <el-avatar shape="square" :size="40" :fit='fill' :src="avatarUrl" />
+    <el-avatar shape="square" :size="40" :src="avatarUrl" />
     <template #dropdown>
       <el-dropdown-menu>
         <el-dropdown-item @click='logout'>退出</el-dropdown-item>

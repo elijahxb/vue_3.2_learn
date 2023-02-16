@@ -6,7 +6,8 @@ export default {
   namespaced: true,
   state: () => ({
     token: localStorage.getItem('token') || '',
-    siderType: true
+    siderType: true,
+    lang: localStorage.getItem('lang') || 'zh'
   }),
   mutations: {
     setToken(state, token) {
@@ -15,6 +16,9 @@ export default {
     },
     changeSiderType(state) {
       state.siderType = !state.siderType
+    },
+    changeLang(state, lang) {
+      state.lang = lang
     }
   },
   actions: {

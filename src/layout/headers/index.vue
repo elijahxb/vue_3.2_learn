@@ -3,7 +3,8 @@
     <Fold id='siderTypeId' @click='toggleClick'></Fold>
     <Breadcrumb />
     <div class='navbar-right'>
-      <Avatar />
+      <Lang class='navbar-item' />
+      <Avatar class='navbar-item' />
     </div>
   </div>
 </template>
@@ -11,6 +12,7 @@
 <script setup>
 import Breadcrumb from './components/breadcrumb'
 import Avatar from './components/avatar'
+import Lang from './components/lang'
 import { Fold } from '@element-plus/icons-vue'
 import { useStore } from 'vuex'
 import { computed } from 'vue'
