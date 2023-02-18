@@ -1,5 +1,5 @@
 <template>
-  <div @click='handleFullScreen'>
+  <div @click='handleFullScreen' id='fullScreen'>
     <el-icon>
       <FullScreen />
     </el-icon>

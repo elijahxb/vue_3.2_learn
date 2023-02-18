@@ -3,6 +3,7 @@
     <Fold id='siderTypeId' @click='toggleClick'></Fold>
     <Breadcrumb />
     <div class='navbar-right'>
+      <Driver class='navbar-item' />
       <screen-full class='navbar-item' />
       <Lang class='navbar-item' />
       <Avatar class='navbar-item' />
@@ -14,7 +15,8 @@
 import Breadcrumb from './components/breadcrumb'
 import Avatar from './components/avatar'
 import Lang from './components/lang'
-import ScreenFull from '@/layout/headers/components/screenFull'
+import ScreenFull from './components/screenFull'
+import Driver from './components/driver'
 import { Fold } from '@element-plus/icons-vue'
 import { useStore } from 'vuex'
 import { computed } from 'vue'
