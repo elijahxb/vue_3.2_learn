@@ -3,6 +3,7 @@
     <Fold id='siderTypeId' @click='toggleClick'></Fold>
     <Breadcrumb />
     <div class='navbar-right'>
+      <screen-full class='navbar-item' />
       <Lang class='navbar-item' />
       <Avatar class='navbar-item' />
     </div>
@@ -13,9 +14,11 @@
 import Breadcrumb from './components/breadcrumb'
 import Avatar from './components/avatar'
 import Lang from './components/lang'
+import ScreenFull from '@/layout/headers/components/screenFull'
 import { Fold } from '@element-plus/icons-vue'
 import { useStore } from 'vuex'
 import { computed } from 'vue'
+
 const store = useStore()
 const toggleClick = () => {
   store.commit('app/changeSiderType')
