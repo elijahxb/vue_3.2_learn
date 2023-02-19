@@ -14,7 +14,6 @@ const getCurrentLanguage = () => {
   const UAlang = navigator.language // zh-CN
   const langCode = UAlang.indexOf('zh') !== -1 ? 'zh' : 'en'
   localStorage.setItem('lang', langCode)
-  console.log(langCode)
   return langCode
 }
 

@@ -29,7 +29,7 @@ export default {
     action: 'action',
     search: 'search',
     adduser: 'add user',
-    placeholder: 'Please enter a user name to search for'
+    placeholder: 'Please enter a user name to search'
   },
   message: {
     updeteSuccess: 'update successfully'

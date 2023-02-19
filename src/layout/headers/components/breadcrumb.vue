@@ -19,12 +19,10 @@ const router = useRouter()
 
 const breadcrumbList = ref([])
 const handleRedirect = (path) => {
-  console.log(path)
   router.push(path)
 }
 const initBreadcrumbList = () => {
   breadcrumbList.value = route.matched
-  console.log(route.matched)
 }
 
 watch(route, () => {
