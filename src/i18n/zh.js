@@ -25,7 +25,7 @@ export default {
     mobile: '手机',
     role_name: '角色',
     mg_state: '状态',
-    create_time: '创建时间',
+    created_at: '创建时间',
     action: '操作',
     search: '搜索',
     adduser: '添加用户',

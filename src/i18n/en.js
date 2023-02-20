@@ -25,7 +25,7 @@ export default {
     mobile: 'mobile',
     role_name: 'role name',
     mg_state: 'state',
-    create_time: 'create_time',
+    created_at: 'created_at',
     action: 'action',
     search: 'search',
     adduser: 'add user',

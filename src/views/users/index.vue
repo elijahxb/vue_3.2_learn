@@ -11,11 +11,14 @@
     <el-table :data="tableData" stripe style="width: 100%">
       <el-table-column
         :prop="item.prop"
-        :label="item.label"
+        :label="$t(`table.${item.label}`)"
         v-for='(item, index) in options'
         :width='item.width'
         :key='index'>
-        <template #default v-if="item.prop === 'action'">
+        <template v-slot='{ row }' v-if="item.prop === 'mg_state'">
+          <el-switch v-model='row.mg_state' />
+        </template>
+        <template #default v-else-if="item.prop === 'action'">
           <el-button type='primary' size='small'>Primary</el-button>
           <el-button type='warning' size='small'>Warning</el-button>
           <el-button type='danger' size='small'>Danger</el-button>
