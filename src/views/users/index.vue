@@ -18,7 +18,7 @@
         :width='item.width'
         :key='index'>
         <template v-slot='{ row }' v-if="item.prop === 'mg_state'">
-          <el-switch v-model='row.mg_state' />
+          <el-switch v-model='row.mg_state' @change='changeState(row)' />
         </template>
         <template v-slot='{ row }' v-else-if="item.prop === 'created_at'">
           {{$filters.filterTimes(row.created_at)}}
@@ -50,8 +50,10 @@
 <script setup>
 import { ref } from 'vue'
 import { Search, Edit, Setting, Delete } from '@element-plus/icons-vue'
-import { getUsers } from '@/api/users'
+import { getUsers, changeUserState } from '@/api/users'
 import { options } from './options'
+import { ElMessage } from 'element-plus'
+
 const queryForm = ref({
   query: '',
   pagenum: 1,
@@ -62,7 +64,6 @@ const tableData = ref([])
 const total = ref(0)
 const initGetUsersList = async () => {
   const res = await getUsers(queryForm.value)
-  console.log(res)
   total.value = res.totalrow
   tableData.value = res.users
 }
@@ -78,6 +79,10 @@ const handleCurrentChange = (pageNum) => {
   initGetUsersList()
 }
 
+const changeState = async (row) => {
+  const res = await changeUserState(row.id, row.mg_state)
+  ElMessage.success('修改状态成功: ' + res)
+}
 </script>
 
 <style lang="scss" scoped>
