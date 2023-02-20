@@ -7,7 +7,7 @@
         </el-input>
       </el-col>
       <el-button type='primary' :icon='Search' @click='initGetUsersList'>{{$t('table.search')}}</el-button>
-      <el-button type='primary'>{{$t('table.adduser')}}</el-button>
+      <el-button type='primary' @click='handleDialogStatus'>{{$t('table.adduser')}}</el-button>
     </el-row>
     <el-table :data="tableData" stripe style="width: 100%">
       <el-table-column type='index' />
@@ -45,6 +45,7 @@
       />
     </div>
   </el-card>
+  <Dialog v-model='dialogVisible' :dialogTitle='dialogTitle'/>
 </template>
 
 <script setup>
@@ -53,6 +54,7 @@ import { Search, Edit, Setting, Delete } from '@element-plus/icons-vue'
 import { getUsers, changeUserState } from '@/api/users'
 import { options } from './options'
 import { ElMessage } from 'element-plus'
+import Dialog from './components/dialog'
 
 const queryForm = ref({
   query: '',
@@ -82,6 +84,13 @@ const handleCurrentChange = (pageNum) => {
 const changeState = async (row) => {
   const res = await changeUserState(row.id, row.mg_state)
   ElMessage.success('修改状态成功: ' + res)
+}
+
+const dialogVisible = ref(false)
+const dialogTitle = ref('')
+const handleDialogStatus = () => {
+  dialogTitle.value = '添加用户'
+  dialogVisible.value = true
 }
 </script>
 
