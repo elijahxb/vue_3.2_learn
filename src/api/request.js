@@ -27,9 +27,11 @@ service.interceptors.request.use(
 // 统一处理响应体
 service.interceptors.response.use(
   (response) => {
-  const { data, code } = response.data
-  if (code === 200 || code === 201) {
-    return data
+  if (response.data.meta === undefined) {
+    ElMessage.error(response.data)
+    return Promise.reject(new Error(response.data))
+  } else if (response.data.meta.code === 200 || response.data.meta.code === 201) {
+    return response.data.data
   } else {
     const message = response.data.message
     ElMessage.error(message)
@@ -37,11 +39,11 @@ service.interceptors.response.use(
   }
 },
   (error) => {
-    error.response && ElMessage.error(error.response.data)
-    if (error.response !== undefined && error.response.status === 404) {
-      console.log('接口不存在: &proxy -> ' + error.request.responseURL)
+    try {
+      ElMessage.error(error.response.data.meta.message)
+    } catch (e) {
+      console.error('请求服务器异常：' + e)
     }
-    return Promise.reject(new Error(error.message))
   }
   )
 export default service
