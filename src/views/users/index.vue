@@ -10,6 +10,7 @@
       <el-button type='primary'>{{$t('table.adduser')}}</el-button>
     </el-row>
     <el-table :data="tableData" stripe style="width: 100%">
+      <el-table-column type='index' />
       <el-table-column
         :prop="item.prop"
         :label="$t(`table.${item.label}`)"
@@ -29,6 +30,20 @@
         </template>
       </el-table-column>
     </el-table>
+    <div class="pagination-block">
+      <el-pagination
+        v-model:current-page="queryForm.pagenum"
+        v-model:page-size="queryForm.pagesize"
+        :page-sizes="[5, 10, 20, 50]"
+        :small="true"
+        :disabled="false"
+        :background="true"
+        layout="total, sizes, prev, pager, next, jumper"
+        :total="total"
+        @size-change="handleSizeChange"
+        @current-change="handleCurrentChange"
+      />
+    </div>
   </el-card>
 </template>
 
@@ -44,14 +59,25 @@ const queryForm = ref({
 })
 
 const tableData = ref([])
-
+const total = ref(0)
 const initGetUsersList = async () => {
-  console.log(queryForm.value)
   const res = await getUsers(queryForm.value)
-  console.log('init' + res)
+  console.log(res)
+  total.value = res.totalrow
   tableData.value = res.users
 }
 initGetUsersList()
+
+const handleSizeChange = (pageSize) => {
+  queryForm.value.pagenum = 1
+  queryForm.value.pagesize = pageSize
+  initGetUsersList()
+}
+const handleCurrentChange = (pageNum) => {
+  queryForm.value.pagenum = pageNum
+  initGetUsersList()
+}
+
 </script>
 
 <style lang="scss" scoped>
@@ -61,5 +87,9 @@ initGetUsersList()
 }
 ::v-deep el-input__suffix {
   align-items: center;
+}
+.pagination-block {
+  padding-top: 16px;
+  box-sizing: border-box;
 }
 </style>
