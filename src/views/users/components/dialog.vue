@@ -5,11 +5,11 @@
     width="40%"
     @close="handleClose"
   >
-    <el-form ref="refForm" :model="form" label-width="70px" :rules='rules'>
-      <el-form-item label="用户名" prop='user_name'>
-        <el-input v-model="form.user_name" />
+    <el-form ref="formRef" :model="form" label-width="70px" :rules='rules'>
+      <el-form-item label="用户名" prop='username'>
+        <el-input v-model="form.username" />
       </el-form-item>
-      <el-form-item label="密码" prop='password'>
+      <el-form-item label="密码" prop='password' v-if="dialogTitle === '添加用户'">
         <el-input v-model="form.password" type='password'/>
       </el-form-item>
       <el-form-item label="邮箱" prop='email'>
@@ -31,42 +31,41 @@
 </template>
 
 <script setup>
-import { defineEmits, ref, defineProps } from 'vue'
-import { addUser } from '@/api/users'
+import { defineEmits, ref, defineProps, watch } from 'vue'
+import { addUser, editUser } from '@/api/users'
+import i18n from '@/i18n'
+import { ElMessage } from 'element-plus'
 
-const emits = defineEmits(['update:modelValue'])
+const dialogVisible = ref(null)
+const emits = defineEmits(['update:modelValue', 'initUserList'])
 const handleClose = () => {
   emits('update:modelValue', false)
 }
-
-defineProps({
+const props = defineProps({
   dialogTitle: {
     type: String,
     default: '',
     required: true
+  },
+  dialogTableValue: {
+    type: Object,
+    default: () => {}
   }
 })
 
-const handleConfirm = async () => {
-  const res = await addUser(form.value)
-  console.log(res)
-  handleClose()
-}
-
 const formRef = ref(null)
 const form = ref({
-  user_name: '',
+  username: '',
   password: '',
   email: '',
   mobile: ''
 })
-console.log(formRef)
 
 const rules = ref({
-  user_name: [
+  username: [
     {
       required: true,
-      message: 'Please input user_name',
+      message: 'Please input username',
       trigger: 'blur'
     }
   ],
@@ -100,6 +99,36 @@ const rules = ref({
     }
   ]
 })
+
+watch(
+  () => props.dialogTableValue,
+  () => {
+    form.value = props.dialogTableValue
+}, { deep: true, immediate: true })
+
+const handleConfirm = () => {
+  formRef.value.validate(async (valid) => {
+    if (valid) {
+      props.dialogTitle === '添加用户'
+        ? await addUser(form.value)
+        : await editUser(
+          {
+                id: form.value.id,
+                username: form.value.username,
+                email: form.value.email,
+                mobile: form.value.mobile
+          }
+        )
+      ElMessage.success(i18n.global.t('message.updeteSuccess'))
+      emits('initUserList')
+      handleClose()
+    } else {
+      console.log('error submit')
+      return false
+    }
+  })
+}
+
 </script>
 
 <style lang='scss' scoped>
