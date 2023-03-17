@@ -26,7 +26,7 @@
         <template #default='{ row }' v-else-if="item.prop === 'action'">
           <el-button type='primary' size='small' :icon='Edit' @click='handleDialogValue(row)'></el-button>
           <el-button type='warning' size='small' :icon='Setting'></el-button>
-          <el-button type='danger' size='small' :icon='Delete'></el-button>
+          <el-button type='danger' size='small' :icon='Delete' @click='delUser(row)'></el-button>
         </template>
       </el-table-column>
     </el-table>
@@ -57,12 +57,13 @@
 <script setup>
 import { ref } from 'vue'
 import { Search, Edit, Setting, Delete } from '@element-plus/icons-vue'
-import { getUsers, changeUserState } from '@/api/users'
+import { getUsers, changeUserState, deleteUser } from '@/api/users'
 import { options } from './options'
-import { ElMessage } from 'element-plus'
+import { useI18n } from 'vue-i18n'
+import { ElMessage, ElMessageBox } from 'element-plus'
 import Dialog from './components/dialog'
 import { isNull } from '@/utils/filters'
-
+const i18n = useI18n()
 const queryForm = ref({
   query: '',
   pagenum: 1,
@@ -92,7 +93,7 @@ const handleCurrentChange = (pageNum) => {
 
 const changeState = async (row) => {
   const res = await changeUserState(row.id, row.mg_state)
-  ElMessage.success('修改状态成功: ' + res)
+  ElMessage.success(i18n.t('message.updateSuccess') + ':' + res)
 }
 
 const handleDialogValue = (row) => {
@@ -105,6 +106,33 @@ const handleDialogValue = (row) => {
   }
   dialogVisible.value = true
 }
+
+const delUser = (row) => {
+  ElMessageBox.confirm(
+    'proxy will permanently delete the file. Continue?',
+    'Warning',
+    {
+      confirmButtonText: 'OK',
+      cancelButtonText: 'Cancel',
+      type: 'warning'
+    }
+  )
+    .then(async () => {
+      await deleteUser(row)
+      ElMessage({
+        type: 'success',
+        message: 'Delete completed'
+      })
+      initGetUsersList()
+    })
+    .catch(() => {
+      ElMessage({
+        type: 'info',
+        message: 'Delete canceled'
+      })
+    })
+}
+
 </script>
 
 <style lang="scss" scoped>
@@ -118,5 +146,11 @@ const handleDialogValue = (row) => {
 .pagination-block {
   padding-top: 16px;
   box-sizing: border-box;
+}
+
+::v-deep .el-pagination {
+  padding-top: 16px;
+  box-sizing: border-box;
+  text-align: right;
 }
 </style>

@@ -5,7 +5,7 @@ import store from '@/store'
 
 const service = axios.create({
   baseURL: process.env.VUE_APP_BASE_API,
-  timeout: 5000
+  timeout: 50000
 })
 
 // 统一带上鉴权字段
@@ -32,6 +32,9 @@ service.interceptors.response.use(
     return Promise.reject(new Error(response.data))
   } else if (response.data.meta.code === 200 || response.data.meta.code === 201) {
     return response.data.data
+  } else if (response.data.meta.code === 401) {
+    store.dispatch('app/logout')
+    return Promise.reject(new Error(response.data.message))
   } else {
     const message = response.data.message
     ElMessage.error(message)

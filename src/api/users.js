@@ -30,3 +30,12 @@ export const editUser = (data) => {
     data
   })
 }
+
+export const deleteUser = (data) => {
+  console.log('delete')
+  return request({
+    url: `users/${data.id}`,
+    method: 'delete',
+    data
+  })
+}
